@@ -1,0 +1,545 @@
+{
+    "id": 0,
+    "identifier": "a2534cc7-7694-40ab-ab13-78c944e8173f",
+    "version": "0",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "avitest",
+    "creator": "6ea093b1-fdc1-4c56-b0a4-3d34f697e6e6",
+    "modifiedBy": "6ea093b1-fdc1-4c56-b0a4-3d34f697e6e6",
+    "priority": 2,
+    "description": "test",
+    "executionScope": 1,
+    "environments": [
+        "Default Environment"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "c5b75720-34ce-44af-bab7-7c32c932a2bc",
+    "creationTimeUnixTimeInMs": 1774872780317,
+    "modificationTimeUnixTimeInMs": 1776260543341,
+    "trigger": {
+        "id": 0,
+        "identifier": "18258e72-70e2-425d-b71d-f3f81743f23e",
+        "type": 10,
+        "logicalOperator": 0,
+        "conditions": [
+            {
+                "fieldName": "asd",
+                "value": "zxc",
+                "matchType": 0,
+                "customOperatorName": null
+            }
+        ],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "39df780c-4dd1-4033-b814-c1a1ee5babbf",
+            "originalStepIdentifier": "92b91650-776e-4627-bd57-aacde6750383",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "manual_1",
+            "name": "manual",
+            "integration": "Siemplify",
+            "description": "An embedded workflow that can receive inputs and return an output.",
+            "actionProvider": "Flow",
+            "actionName": "NestedAction",
+            "type": 5,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DistinctDuplicateEntities",
+                    "value": "true",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "NestedWorkflowIdentifier",
+                    "value": "b8b3e72b-6c19-4537-bc99-bad2cecda9e1",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "NestedWorkflowInputs",
+                    "value": "[]",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "UseEntitiesLoopScope",
+                    "value": "true",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "NestedWorkflowSteps",
+                    "value": "[{\"identifier\":\"15a9b00f-045a-4b7f-8857-f795ff1b2ad2\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_sleep\",\"instanceName\":\"Siemplify_sleep_1\",\"stepType\":0},{\"identifier\":\"15f63633-a491-430f-a4aa-f8258ae33812\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_2\",\"stepType\":0},{\"identifier\":\"162583b0-bd4c-4b0b-b992-303daa1a9e06\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_8\",\"stepType\":0},{\"identifier\":\"3502185b-e96c-4572-a5a2-004386a54a4a\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_1\",\"stepType\":0},{\"identifier\":\"4e2b7cd5-b195-4a64-bdc3-4a1172f24ae4\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_4\",\"stepType\":0},{\"identifier\":\"51c310ad-0825-4785-82bd-23a2e443102f\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_6\",\"stepType\":0},{\"identifier\":\"71128d96-8739-4954-8ac6-cebe91fa6c3d\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_3\",\"stepType\":0},{\"identifier\":\"807e60ee-3fbd-45cb-9cf5-c73e4de07fe5\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_7\",\"stepType\":0},{\"identifier\":\"f45f0900-bca5-455a-b186-28fe0a4c3b23\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_5\",\"stepType\":0},{\"identifier\":\"f54dda51-56b0-4691-b825-4eaa6a3499f4\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_9\",\"stepType\":0},{\"identifier\":\"f904a2fa-fbb6-438a-a8ec-a13eb1af349a\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_10\",\"stepType\":0}]",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "NestedWorkflowOutput",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "a2534cc7-7694-40ab-ab13-78c944e8173f",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": "78d18812-c147-4bae-944a-013e612e6e45",
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1776260543341,
+            "modificationTimeUnixTimeInMs": 1776260543341,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "663d4fcd-7453-47bf-8a16-28c4219b6caa",
+            "originalStepIdentifier": "ced3e40d-6002-45d7-821c-0d465f3fc5cb",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "For Each Loop_1_End",
+            "name": "For Each Loop",
+            "integration": "Loop",
+            "description": "This returns the results of the loop",
+            "actionProvider": "Flow",
+            "actionName": "ForEachEndLoop",
+            "type": 9,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "a2534cc7-7694-40ab-ab13-78c944e8173f",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": "78d18812-c147-4bae-944a-013e612e6e45",
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1776260543341,
+            "modificationTimeUnixTimeInMs": 1776260543341,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "78d18812-c147-4bae-944a-013e612e6e45",
+            "originalStepIdentifier": "6489c71c-a7fc-414e-af0d-761eb1db24ff",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "For Each Loop_1_Start",
+            "name": "For Each Loop",
+            "integration": "Loop",
+            "description": "Use a for-each loop to iterate over an array of entities, events or list items and execute action or series of actions",
+            "actionProvider": "Flow",
+            "actionName": "ForEachStartLoop",
+            "type": 8,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DistinctDuplicateEntities",
+                    "value": "true",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "EndLoopStepIdentifier",
+                    "value": "663d4fcd-7453-47bf-8a16-28c4219b6caa",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ListLoopDelimiter",
+                    "value": ",",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ListLoopItems",
+                    "value": "1,2,3,4,5,6,7,8",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "LoopType",
+                    "value": "3",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "a2534cc7-7694-40ab-ab13-78c944e8173f",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": "78d18812-c147-4bae-944a-013e612e6e45",
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1776260543341,
+            "modificationTimeUnixTimeInMs": 1776260543341,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [
+        {
+            "condition": "",
+            "fromStep": "78d18812-c147-4bae-944a-013e612e6e45",
+            "toStep": "39df780c-4dd1-4033-b814-c1a1ee5babbf",
+            "destinationActionStatus": 0
+        },
+        {
+            "condition": "",
+            "fromStep": "39df780c-4dd1-4033-b814-c1a1ee5babbf",
+            "toStep": "663d4fcd-7453-47bf-8a16-28c4219b6caa",
+            "destinationActionStatus": 0
+        }
+    ],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 2,
+    "defaultAccessLevel": 2,
+    "permissions": [],
+    "overviewTemplates": [
+        {
+            "id": 11,
+            "identifier": "96b3daf7-ad61-4105-9c66-3bc3b4138a95",
+            "name": "test123",
+            "creator": null,
+            "playbookIdentifier": "a2534cc7-7694-40ab-ab13-78c944e8173f",
+            "type": 0,
+            "widgets": [
+                {
+                    "metadata": {
+                        "id": 78,
+                        "identifier": "eb933b96-fddb-41db-8582-1a42954d5dee",
+                        "title": "Entities Highlights",
+                        "width": 2,
+                        "order": 1,
+                        "description": "This widget displays the highlighted fields for each entity.",
+                        "type": 10,
+                        "templateIdentifier": "96b3daf7-ad61-4105-9c66-3bc3b4138a95",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "highlightFieldConfigs": [],
+                        "targetScope": 0,
+                        "type": 10,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 79,
+                        "identifier": "e82e1bdc-5e55-4d0e-a7b0-3014874b9856",
+                        "title": "Events Table",
+                        "width": 2,
+                        "order": 2,
+                        "description": "This widget displays all Alert events and their properties.",
+                        "type": 1,
+                        "templateIdentifier": "96b3daf7-ad61-4105-9c66-3bc3b4138a95",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "eventSelectedFields": [],
+                        "type": 1,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 80,
+                        "identifier": "20050754-3717-4499-8e76-33d215f662ba",
+                        "title": "Custom Fields Form",
+                        "width": 2,
+                        "order": 4,
+                        "description": "",
+                        "type": 20,
+                        "templateIdentifier": "96b3daf7-ad61-4105-9c66-3bc3b4138a95",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "customFields": [],
+                        "type": 20,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 81,
+                        "identifier": "646034e6-e1ed-402c-b019-a2acb7b0c484",
+                        "title": "Composite Detections",
+                        "width": 2,
+                        "order": 5,
+                        "description": "The widget displays detections and alerts generated from chained rules and their UDM events. For a single alert, UDM events are displayed only.",
+                        "type": 22,
+                        "templateIdentifier": "96b3daf7-ad61-4105-9c66-3bc3b4138a95",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "type": 22,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 82,
+                        "identifier": "8677fbd9-16e9-4b00-aecf-7e951af55744",
+                        "title": "Custom Fields Form",
+                        "width": 2,
+                        "order": 6,
+                        "description": "",
+                        "type": 20,
+                        "templateIdentifier": "96b3daf7-ad61-4105-9c66-3bc3b4138a95",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "customFields": [],
+                        "type": 20,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 83,
+                        "identifier": "9a17f00d-f36c-4b5f-9e86-34caa506df65",
+                        "title": "Entities Graph",
+                        "width": 2,
+                        "order": 7,
+                        "description": "This widget includes a visual graph and other details of the Case Entities.",
+                        "type": 7,
+                        "templateIdentifier": "96b3daf7-ad61-4105-9c66-3bc3b4138a95",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "targetScope": 0,
+                        "type": 7,
+                        "widgetDefinitionScope": 2
+                    }
+                }
+            ],
+            "roles": [
+                7
+            ],
+            "creationTimeUnixTimeInMs": 1776260543341
+        }
+    ],
+    "creationSource": 1
+}
