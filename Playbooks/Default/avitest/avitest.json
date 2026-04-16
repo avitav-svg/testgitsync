@@ -17,7 +17,7 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "c5b75720-34ce-44af-bab7-7c32c932a2bc",
     "creationTimeUnixTimeInMs": 1774872780317,
-    "modificationTimeUnixTimeInMs": 1776335451080,
+    "modificationTimeUnixTimeInMs": 1776339511927,
     "trigger": {
         "id": 0,
         "identifier": "36d264f0-5bfc-40c2-8c42-4664ef6ae3af",
@@ -59,8 +59,8 @@
             "startLoopStepIdentifier": "7be33888-7695-4cb3-8068-ba6b23eef6a4",
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1776335451080,
-            "modificationTimeUnixTimeInMs": 1776335451080,
+            "creationTimeUnixTimeInMs": 1776339511650,
+            "modificationTimeUnixTimeInMs": 1776339511927,
             "additionalProperties": {}
         },
         {
@@ -197,8 +197,8 @@
             "startLoopStepIdentifier": "7be33888-7695-4cb3-8068-ba6b23eef6a4",
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1776335451080,
-            "modificationTimeUnixTimeInMs": 1776335451080,
+            "creationTimeUnixTimeInMs": 1776339511650,
+            "modificationTimeUnixTimeInMs": 1776339511927,
             "additionalProperties": {}
         },
         {
@@ -335,8 +335,8 @@
             "startLoopStepIdentifier": "7be33888-7695-4cb3-8068-ba6b23eef6a4",
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1776335451080,
-            "modificationTimeUnixTimeInMs": 1776335451080,
+            "creationTimeUnixTimeInMs": 1776339511650,
+            "modificationTimeUnixTimeInMs": 1776339511927,
             "additionalProperties": {}
         }
     ],
@@ -536,10 +536,22 @@
                 }
             ],
             "roles": [
-                7
+                7,
+                6,
+                5,
+                3,
+                2,
+                1,
+                4
             ],
             "roleNames": [
-                "test123"
+                "test123",
+                "CISO",
+                "SocManager",
+                "Tier2",
+                "Tier1",
+                "Administrator",
+                "Tier3"
             ],
             "creationTimeUnixTimeInMs": 1776335451080
         }
