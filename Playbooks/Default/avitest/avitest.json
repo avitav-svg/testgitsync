@@ -1,6 +1,6 @@
 {
     "id": 0,
-    "identifier": "32091bff-ea04-4494-a2b1-b695573eecf8",
+    "identifier": "b994872b-1ce5-4e81-b9ac-a1f56211d788",
     "version": "0",
     "isEnabled": true,
     "isDebugMode": false,
@@ -17,10 +17,10 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "c5b75720-34ce-44af-bab7-7c32c932a2bc",
     "creationTimeUnixTimeInMs": 1774872780317,
-    "modificationTimeUnixTimeInMs": 1776339636462,
+    "modificationTimeUnixTimeInMs": 1776684736857,
     "trigger": {
         "id": 0,
-        "identifier": "36d264f0-5bfc-40c2-8c42-4664ef6ae3af",
+        "identifier": "c3e5e908-79c7-4bd7-8356-c239c5fa89ab",
         "type": 10,
         "logicalOperator": 0,
         "conditions": [
@@ -38,7 +38,7 @@
     "steps": [
         {
             "parallelActions": [],
-            "identifier": "42848f57-92df-4103-8089-970f5002541b",
+            "identifier": "316beb8d-3290-44ed-af8a-bd93d6c780b3",
             "originalStepIdentifier": "ced3e40d-6002-45d7-821c-0d465f3fc5cb",
             "isAutomatic": true,
             "isSkippable": false,
@@ -54,18 +54,18 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "32091bff-ea04-4494-a2b1-b695573eecf8",
+            "workflowIdentifier": "b994872b-1ce5-4e81-b9ac-a1f56211d788",
             "isTouchedByAi": false,
-            "startLoopStepIdentifier": "7be33888-7695-4cb3-8068-ba6b23eef6a4",
+            "startLoopStepIdentifier": "32b21018-0489-4c98-b6fe-258bd04cd450",
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1776339636253,
-            "modificationTimeUnixTimeInMs": 1776339636462,
+            "creationTimeUnixTimeInMs": 1776684736857,
+            "modificationTimeUnixTimeInMs": 1776684736857,
             "additionalProperties": {}
         },
         {
             "parallelActions": [],
-            "identifier": "7be33888-7695-4cb3-8068-ba6b23eef6a4",
+            "identifier": "32b21018-0489-4c98-b6fe-258bd04cd450",
             "originalStepIdentifier": "6489c71c-a7fc-414e-af0d-761eb1db24ff",
             "isAutomatic": true,
             "isSkippable": false,
@@ -101,7 +101,7 @@
                 },
                 {
                     "name": "EndLoopStepIdentifier",
-                    "value": "42848f57-92df-4103-8089-970f5002541b",
+                    "value": "316beb8d-3290-44ed-af8a-bd93d6c780b3",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -192,20 +192,20 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "32091bff-ea04-4494-a2b1-b695573eecf8",
+            "workflowIdentifier": "b994872b-1ce5-4e81-b9ac-a1f56211d788",
             "isTouchedByAi": false,
-            "startLoopStepIdentifier": "7be33888-7695-4cb3-8068-ba6b23eef6a4",
+            "startLoopStepIdentifier": "32b21018-0489-4c98-b6fe-258bd04cd450",
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1776339636253,
-            "modificationTimeUnixTimeInMs": 1776339636462,
+            "creationTimeUnixTimeInMs": 1776684736857,
+            "modificationTimeUnixTimeInMs": 1776684736857,
             "additionalProperties": {}
         },
         {
             "parallelActions": [],
-            "identifier": "8eb65104-d1fe-4686-abc1-b8335cf967de",
+            "identifier": "99445aed-b7cb-4de1-ad13-c718bde9c281",
             "originalStepIdentifier": "92b91650-776e-4627-bd57-aacde6750383",
-            "isAutomatic": true,
+            "isAutomatic": false,
             "isSkippable": false,
             "instanceName": "manual_1",
             "name": "manual",
@@ -261,7 +261,7 @@
                 },
                 {
                     "name": "NestedWorkflowIdentifier",
-                    "value": "b8b3e72b-6c19-4537-bc99-bad2cecda9e1",
+                    "value": "3099fa45-459a-4418-a0d9-ae3fda98e802",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -305,7 +305,7 @@
                 },
                 {
                     "name": "NestedWorkflowSteps",
-                    "value": "[{\"identifier\":\"15a9b00f-045a-4b7f-8857-f795ff1b2ad2\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_sleep\",\"instanceName\":\"Siemplify_sleep_1\",\"stepType\":0},{\"identifier\":\"15f63633-a491-430f-a4aa-f8258ae33812\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_2\",\"stepType\":0},{\"identifier\":\"162583b0-bd4c-4b0b-b992-303daa1a9e06\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_8\",\"stepType\":0},{\"identifier\":\"3502185b-e96c-4572-a5a2-004386a54a4a\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_1\",\"stepType\":0},{\"identifier\":\"4e2b7cd5-b195-4a64-bdc3-4a1172f24ae4\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_4\",\"stepType\":0},{\"identifier\":\"51c310ad-0825-4785-82bd-23a2e443102f\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_6\",\"stepType\":0},{\"identifier\":\"71128d96-8739-4954-8ac6-cebe91fa6c3d\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_3\",\"stepType\":0},{\"identifier\":\"807e60ee-3fbd-45cb-9cf5-c73e4de07fe5\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_7\",\"stepType\":0},{\"identifier\":\"f45f0900-bca5-455a-b186-28fe0a4c3b23\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_5\",\"stepType\":0},{\"identifier\":\"f54dda51-56b0-4691-b825-4eaa6a3499f4\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_9\",\"stepType\":0},{\"identifier\":\"f904a2fa-fbb6-438a-a8ec-a13eb1af349a\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Case Comment_10\",\"stepType\":0}]",
+                    "value": "[{\"identifier\":\"09c2c920-fc3c-49af-8d9c-9767be95251e\",\"integration\":\"Loop\",\"actionName\":\"ForEachStartLoop\",\"instanceName\":\"For Each Loop_1_Start\",\"stepType\":8},{\"identifier\":\"2fb651ef-bc3e-45f1-ae87-50ad67e1d82b\",\"integration\":\"Loop\",\"actionName\":\"ForEachEndLoop\",\"instanceName\":\"For Each Loop_1_End\",\"stepType\":9},{\"identifier\":\"c3933661-6cbe-45c1-8b6c-32ffc1eae32e\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_sleep\",\"instanceName\":\"Siemplify_sleep_1\",\"stepType\":0},{\"identifier\":\"e01129ec-6467-4d7d-ba37-693685f9d53d\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_1\",\"stepType\":0}]",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -330,27 +330,27 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "32091bff-ea04-4494-a2b1-b695573eecf8",
+            "workflowIdentifier": "b994872b-1ce5-4e81-b9ac-a1f56211d788",
             "isTouchedByAi": false,
-            "startLoopStepIdentifier": "7be33888-7695-4cb3-8068-ba6b23eef6a4",
+            "startLoopStepIdentifier": "32b21018-0489-4c98-b6fe-258bd04cd450",
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1776339636253,
-            "modificationTimeUnixTimeInMs": 1776339636462,
+            "creationTimeUnixTimeInMs": 1776684736857,
+            "modificationTimeUnixTimeInMs": 1776684736857,
             "additionalProperties": {}
         }
     ],
     "stepsRelations": [
         {
             "condition": "",
-            "fromStep": "8eb65104-d1fe-4686-abc1-b8335cf967de",
-            "toStep": "42848f57-92df-4103-8089-970f5002541b",
+            "fromStep": "99445aed-b7cb-4de1-ad13-c718bde9c281",
+            "toStep": "316beb8d-3290-44ed-af8a-bd93d6c780b3",
             "destinationActionStatus": 0
         },
         {
             "condition": "",
-            "fromStep": "7be33888-7695-4cb3-8068-ba6b23eef6a4",
-            "toStep": "8eb65104-d1fe-4686-abc1-b8335cf967de",
+            "fromStep": "32b21018-0489-4c98-b6fe-258bd04cd450",
+            "toStep": "99445aed-b7cb-4de1-ad13-c718bde9c281",
             "destinationActionStatus": 0
         }
     ],
@@ -365,23 +365,23 @@
     "permissions": [],
     "overviewTemplates": [
         {
-            "id": 12,
-            "identifier": "59233546-cb1e-4daa-a8bc-9143d86c6df4",
+            "id": 15,
+            "identifier": "7aef530c-3c56-4ac0-8465-e2098aa13df8",
             "name": "test123",
             "creator": null,
-            "playbookIdentifier": "32091bff-ea04-4494-a2b1-b695573eecf8",
+            "playbookIdentifier": "b994872b-1ce5-4e81-b9ac-a1f56211d788",
             "type": 0,
             "widgets": [
                 {
                     "metadata": {
-                        "id": 84,
-                        "identifier": "84a98f08-afa7-44c9-9656-5e897605a183",
+                        "id": 105,
+                        "identifier": "0ff676f3-a8cc-4599-b60c-02b1d5c150a1",
                         "title": "Entities Highlights",
                         "width": 2,
                         "order": 1,
                         "description": "This widget displays the highlighted fields for each entity.",
                         "type": 10,
-                        "templateIdentifier": "59233546-cb1e-4daa-a8bc-9143d86c6df4",
+                        "templateIdentifier": "7aef530c-3c56-4ac0-8465-e2098aa13df8",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -402,14 +402,14 @@
                 },
                 {
                     "metadata": {
-                        "id": 85,
-                        "identifier": "48d84bad-f4ef-4879-b714-802998f404f2",
+                        "id": 106,
+                        "identifier": "36f759ff-d8a1-46ca-8df8-1de5dc9a6362",
                         "title": "Events Table",
                         "width": 2,
                         "order": 2,
                         "description": "This widget displays all Alert events and their properties.",
                         "type": 1,
-                        "templateIdentifier": "59233546-cb1e-4daa-a8bc-9143d86c6df4",
+                        "templateIdentifier": "7aef530c-3c56-4ac0-8465-e2098aa13df8",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -429,14 +429,14 @@
                 },
                 {
                     "metadata": {
-                        "id": 86,
-                        "identifier": "eba1f3b0-7115-4385-81ca-d5f08d28d101",
+                        "id": 107,
+                        "identifier": "389bd28c-26bc-41be-bf9e-8ad0762e720e",
                         "title": "Custom Fields Form",
                         "width": 2,
                         "order": 4,
                         "description": "",
                         "type": 20,
-                        "templateIdentifier": "59233546-cb1e-4daa-a8bc-9143d86c6df4",
+                        "templateIdentifier": "7aef530c-3c56-4ac0-8465-e2098aa13df8",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -456,14 +456,14 @@
                 },
                 {
                     "metadata": {
-                        "id": 87,
-                        "identifier": "3673f0b7-93da-40e1-b804-af2dd2ae06d3",
+                        "id": 108,
+                        "identifier": "35a8bfd7-bf5b-4b3c-a648-4b5c6d111a99",
                         "title": "Composite Detections",
                         "width": 2,
                         "order": 5,
                         "description": "The widget displays detections and alerts generated from chained rules and their UDM events. For a single alert, UDM events are displayed only.",
                         "type": 22,
-                        "templateIdentifier": "59233546-cb1e-4daa-a8bc-9143d86c6df4",
+                        "templateIdentifier": "7aef530c-3c56-4ac0-8465-e2098aa13df8",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -482,14 +482,14 @@
                 },
                 {
                     "metadata": {
-                        "id": 88,
-                        "identifier": "5a2afe78-4a93-4ffa-9c7c-5cc3c23d6fa1",
+                        "id": 109,
+                        "identifier": "bd35c3a5-5765-4104-b0f1-9d9f8f5d6a83",
                         "title": "Custom Fields Form",
                         "width": 2,
                         "order": 6,
                         "description": "",
                         "type": 20,
-                        "templateIdentifier": "59233546-cb1e-4daa-a8bc-9143d86c6df4",
+                        "templateIdentifier": "7aef530c-3c56-4ac0-8465-e2098aa13df8",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -509,14 +509,14 @@
                 },
                 {
                     "metadata": {
-                        "id": 89,
-                        "identifier": "564063a1-edb8-494f-90ce-01a2eb674043",
+                        "id": 110,
+                        "identifier": "70846b62-3982-42f9-aa48-4f81e18832c7",
                         "title": "Entities Graph",
                         "width": 2,
                         "order": 7,
                         "description": "This widget includes a visual graph and other details of the Case Entities.",
                         "type": 7,
-                        "templateIdentifier": "59233546-cb1e-4daa-a8bc-9143d86c6df4",
+                        "templateIdentifier": "7aef530c-3c56-4ac0-8465-e2098aa13df8",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -545,17 +545,7 @@
                 4,
                 8
             ],
-            "roleNames": [
-                "test123",
-                "CISO",
-                "SocManager",
-                "Tier2",
-                "Tier1",
-                "Administrator",
-                "Tier3",
-                "test789"
-            ],
-            "creationTimeUnixTimeInMs": 1776335451080
+            "creationTimeUnixTimeInMs": 1776684736857
         }
     ],
     "creationSource": 1
