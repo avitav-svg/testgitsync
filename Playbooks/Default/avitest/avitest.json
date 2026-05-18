@@ -18,7 +18,7 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "06746461-fd82-4eba-83dd-80ba72c4a085",
     "creationTimeUnixTimeInMs": 1779090471647,
-    "modificationTimeUnixTimeInMs": 1779090676454,
+    "modificationTimeUnixTimeInMs": 1779090787852,
     "trigger": {
         "id": 0,
         "identifier": "de1b544a-d140-46f1-a2ee-9f1c4bc7035b",
@@ -216,8 +216,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1779090676324,
-            "modificationTimeUnixTimeInMs": 1779090676454,
+            "creationTimeUnixTimeInMs": 1779090787793,
+            "modificationTimeUnixTimeInMs": 1779090787852,
             "additionalProperties": {}
         }
     ],
@@ -425,6 +425,33 @@
                     "config": {
                         "text": null,
                         "type": 8,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 24,
+                        "identifier": "564ffe8f-aa41-4f92-9dd7-21b858ccdbc9",
+                        "title": "Key Value",
+                        "width": 2,
+                        "order": 3,
+                        "description": "",
+                        "type": 0,
+                        "templateIdentifier": "dd56b1fd-5da9-4fb5-b3e7-dc928481898f",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "keyValue": [],
+                        "type": 0,
                         "widgetDefinitionScope": 2
                     }
                 }
