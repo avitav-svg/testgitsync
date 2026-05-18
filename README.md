@@ -3,6 +3,6 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
-|avitest||
+|avitest|update|
 |manual|An embedded workflow that can receive inputs and return an output.|
 
