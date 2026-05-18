@@ -1,5 +1,5 @@
 # Playbooks
 |Name|Folder|Description|
 |----|------|-----------|
-|avitest|Default|test 123123asdasdasdsaasdasdasda|
+|avitest|Default||
 |manual|Default|An embedded workflow that can receive inputs and return an output.|

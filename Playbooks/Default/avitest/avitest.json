@@ -1,32 +1,33 @@
 {
+    "hasRestrictedEnvironments": false,
     "id": 0,
-    "identifier": "20e600f9-b13b-4ce9-aeb9-62e3630d54cb",
-    "version": "0",
+    "identifier": "06746461-fd82-4eba-83dd-80ba72c4a085",
+    "version": "1",
     "isEnabled": true,
     "isDebugMode": false,
     "name": "avitest",
-    "creator": "6ea093b1-fdc1-4c56-b0a4-3d34f697e6e6",
-    "modifiedBy": "6ea093b1-fdc1-4c56-b0a4-3d34f697e6e6",
+    "creator": "34d68358-9c14-445c-ad96-6ae4be6c26f1",
+    "modifiedBy": "34d68358-9c14-445c-ad96-6ae4be6c26f1",
     "priority": 2,
-    "description": "test 123123asdasdasdsaasdasdasda",
+    "description": "",
     "executionScope": 1,
     "environments": [
         "Default Environment"
     ],
     "categoryName": "Default",
     "categoryId": 1,
-    "originalPlaybookIdentifier": "c5b75720-34ce-44af-bab7-7c32c932a2bc",
-    "creationTimeUnixTimeInMs": 1774872780317,
-    "modificationTimeUnixTimeInMs": 1776958694472,
+    "originalPlaybookIdentifier": "06746461-fd82-4eba-83dd-80ba72c4a085",
+    "creationTimeUnixTimeInMs": 1779090471647,
+    "modificationTimeUnixTimeInMs": 1779090505779,
     "trigger": {
         "id": 0,
-        "identifier": "98b5e308-39bf-4217-9994-fc0d16f9f1bc",
+        "identifier": "de1b544a-d140-46f1-a2ee-9f1c4bc7035b",
         "type": 10,
         "logicalOperator": 0,
         "conditions": [
             {
-                "fieldName": "asd",
-                "value": "zxc",
+                "fieldName": "asdxc",
+                "value": "asdqwe",
                 "matchType": 0,
                 "customOperatorName": null
             }
@@ -38,17 +39,17 @@
     "steps": [
         {
             "parallelActions": [],
-            "identifier": "19ce7181-2e54-42e1-bb36-3d8f3fd08acb",
-            "originalStepIdentifier": "6489c71c-a7fc-414e-af0d-761eb1db24ff",
+            "identifier": "f2814260-a66a-4d21-87f5-14f1bd1857b0",
+            "originalStepIdentifier": "f2814260-a66a-4d21-87f5-14f1bd1857b0",
             "isAutomatic": true,
             "isSkippable": false,
-            "instanceName": "For Each Loop_1_Start",
-            "name": "For Each Loop",
-            "integration": "Loop",
-            "description": "Use a for-each loop to iterate over an array of entities, events or list items and execute action or series of actions",
-            "actionProvider": "Flow",
-            "actionName": "ForEachStartLoop",
-            "type": 8,
+            "instanceName": "Siemplify_Case Comment_1",
+            "name": "Siemplify_Case Comment",
+            "integration": "Siemplify",
+            "description": "Add a comment to the case the current alert has been grouped to",
+            "actionProvider": "Scripts",
+            "actionName": "Siemplify_Case Comment",
+            "type": 0,
             "parameters": [
                 {
                     "name": "AssignedUsers",
@@ -63,7 +64,7 @@
                 },
                 {
                     "name": "DistinctDuplicateEntities",
-                    "value": "true",
+                    "value": null,
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -73,8 +74,30 @@
                     "additionalProperties": {}
                 },
                 {
-                    "name": "EndLoopStepIdentifier",
-                    "value": "4e25ac8a-ca53-457d-abe5-b3ff5f89343c",
+                    "name": "DynamicInjectionInstancePlaceholder",
+                    "value": "",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FallbackIntegrationInstance",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FetchInstanceByName",
+                    "value": "false",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -95,37 +118,16 @@
                     "additionalProperties": {}
                 },
                 {
-                    "name": "ListLoopDelimiter",
-                    "value": ",",
+                    "name": "IntegrationInstance",
+                    "value": "6bb73baf-8548-45c0-a213-c7339460afde",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
                     "id": 0,
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "ListLoopItems",
-                    "value": "1,2,3,4,5,6,7,8",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "LoopType",
-                    "value": "3",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
+                    "additionalProperties": {},
+                    "InstanceDisplayName": "Siemplify_1"
                 },
                 {
                     "name": "MessageToAssignee",
@@ -141,6 +143,39 @@
                 {
                     "name": "PendingActionTimeout",
                     "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "RetryConfiguration",
+                    "value": "{\"Enabled\":false,\"IntervalInSeconds\":30,\"NumberOfRetries\":1}",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptName",
+                    "value": "Siemplify_Case Comment",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptParametersEntityFields",
+                    "value": "{\"Comment\":\"asdzxc\"}",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -151,139 +186,7 @@
                 },
                 {
                     "name": "SelectedScopeName",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                }
-            ],
-            "autoSkipOnFailure": false,
-            "isDebugMockData": false,
-            "debugData": null,
-            "parentStepContainerId": null,
-            "workflowIdentifier": "20e600f9-b13b-4ce9-aeb9-62e3630d54cb",
-            "isTouchedByAi": false,
-            "startLoopStepIdentifier": "19ce7181-2e54-42e1-bb36-3d8f3fd08acb",
-            "logsExplorerUrl": null,
-            "id": 0,
-            "creationTimeUnixTimeInMs": 1776958694472,
-            "modificationTimeUnixTimeInMs": 1776958694472,
-            "additionalProperties": {}
-        },
-        {
-            "parallelActions": [],
-            "identifier": "4e25ac8a-ca53-457d-abe5-b3ff5f89343c",
-            "originalStepIdentifier": "ced3e40d-6002-45d7-821c-0d465f3fc5cb",
-            "isAutomatic": true,
-            "isSkippable": false,
-            "instanceName": "For Each Loop_1_End",
-            "name": "For Each Loop",
-            "integration": "Loop",
-            "description": "This returns the results of the loop",
-            "actionProvider": "Flow",
-            "actionName": "ForEachEndLoop",
-            "type": 9,
-            "parameters": [],
-            "autoSkipOnFailure": false,
-            "isDebugMockData": false,
-            "debugData": null,
-            "parentStepContainerId": null,
-            "workflowIdentifier": "20e600f9-b13b-4ce9-aeb9-62e3630d54cb",
-            "isTouchedByAi": false,
-            "startLoopStepIdentifier": "19ce7181-2e54-42e1-bb36-3d8f3fd08acb",
-            "logsExplorerUrl": null,
-            "id": 0,
-            "creationTimeUnixTimeInMs": 1776958694472,
-            "modificationTimeUnixTimeInMs": 1776958694472,
-            "additionalProperties": {}
-        },
-        {
-            "parallelActions": [],
-            "identifier": "d59189ed-a098-4372-abe8-94491692dc40",
-            "originalStepIdentifier": "92b91650-776e-4627-bd57-aacde6750383",
-            "isAutomatic": false,
-            "isSkippable": false,
-            "instanceName": "manual_1",
-            "name": "manual",
-            "integration": "Siemplify",
-            "description": "An embedded workflow that can receive inputs and return an output.",
-            "actionProvider": "Flow",
-            "actionName": "NestedAction",
-            "type": 5,
-            "parameters": [
-                {
-                    "name": "AssignedUsers",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "DistinctDuplicateEntities",
-                    "value": "true",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "HasApprovalLink",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "MessageToAssignee",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "NestedWorkflowIdentifier",
-                    "value": "4e16bccd-4435-4eff-b6fc-0a11acbafb52",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "NestedWorkflowInputs",
-                    "value": "[]",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "PendingActionTimeout",
-                    "value": null,
+                    "value": "All entities",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -294,28 +197,6 @@
                 },
                 {
                     "name": "UseEntitiesLoopScope",
-                    "value": "true",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "NestedWorkflowSteps",
-                    "value": "[{\"identifier\":\"22f38650-638c-4bf2-a304-7cbc28bb7e42\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_sleep\",\"instanceName\":\"Siemplify_sleep_1\",\"stepType\":0},{\"identifier\":\"66231a25-7128-4043-9e1b-cb0b7ad751c1\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_1\",\"stepType\":0},{\"identifier\":\"76d11b88-6cbd-4f3f-bc84-6adbc8b08c82\",\"integration\":\"Loop\",\"actionName\":\"ForEachStartLoop\",\"instanceName\":\"For Each Loop_1_Start\",\"stepType\":8},{\"identifier\":\"a5e3c3de-e920-47fe-8da9-a88c480d7e09\",\"integration\":\"Loop\",\"actionName\":\"ForEachEndLoop\",\"instanceName\":\"For Each Loop_1_End\",\"stepType\":9}]",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "NestedWorkflowOutput",
                     "value": null,
                     "type": null,
                     "isMandatory": false,
@@ -330,58 +211,74 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "20e600f9-b13b-4ce9-aeb9-62e3630d54cb",
+            "workflowIdentifier": "06746461-fd82-4eba-83dd-80ba72c4a085",
             "isTouchedByAi": false,
-            "startLoopStepIdentifier": "19ce7181-2e54-42e1-bb36-3d8f3fd08acb",
+            "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1776958694472,
-            "modificationTimeUnixTimeInMs": 1777272759498,
+            "creationTimeUnixTimeInMs": 1779090505698,
+            "modificationTimeUnixTimeInMs": 1779090505779,
             "additionalProperties": {}
         }
     ],
-    "stepsRelations": [
-        {
-            "condition": "",
-            "fromStep": "d59189ed-a098-4372-abe8-94491692dc40",
-            "toStep": "4e25ac8a-ca53-457d-abe5-b3ff5f89343c",
-            "destinationActionStatus": 0
-        },
-        {
-            "condition": "",
-            "fromStep": "19ce7181-2e54-42e1-bb36-3d8f3fd08acb",
-            "toStep": "d59189ed-a098-4372-abe8-94491692dc40",
-            "destinationActionStatus": 0
-        }
-    ],
+    "stepsRelations": [],
     "templateName": null,
     "playbookType": 0,
     "debugData": {
-        "debugBaseAlertId": null,
-        "debugAlertId": null
+        "debugBaseAlertId": "",
+        "debugAlertId": ""
     },
     "entityAccessLevel": 2,
     "defaultAccessLevel": 2,
     "permissions": [],
     "overviewTemplates": [
         {
-            "id": 16,
-            "identifier": "463edd8d-5031-4a26-895f-9d8f09af6043",
-            "name": "test123",
+            "id": 3,
+            "identifier": "6eb735de-a8ba-442d-8c3f-56bc6bb3c402",
+            "name": "test",
             "creator": null,
-            "playbookIdentifier": "20e600f9-b13b-4ce9-aeb9-62e3630d54cb",
+            "playbookIdentifier": "06746461-fd82-4eba-83dd-80ba72c4a085",
             "type": 0,
             "widgets": [
                 {
                     "metadata": {
-                        "id": 111,
-                        "identifier": "d2a55349-7bc0-4569-8852-f8dd547da937",
-                        "title": "Entities Highlights",
+                        "id": 18,
+                        "identifier": "c210b399-cece-481d-9fbb-fb9017a07e5c",
+                        "title": "HTML",
                         "width": 2,
                         "order": 1,
+                        "description": "",
+                        "type": 3,
+                        "templateIdentifier": "6eb735de-a8ba-442d-8c3f-56bc6bb3c402",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "htmlContent": null,
+                        "htmlHeight": 200,
+                        "safeRendering": false,
+                        "type": 3,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 19,
+                        "identifier": "3a3fc454-c754-4b5b-b955-dcb67623e947",
+                        "title": "Entities Highlights",
+                        "width": 2,
+                        "order": 2,
                         "description": "This widget displays the highlighted fields for each entity.",
                         "type": 10,
-                        "templateIdentifier": "463edd8d-5031-4a26-895f-9d8f09af6043",
+                        "templateIdentifier": "6eb735de-a8ba-442d-8c3f-56bc6bb3c402",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -402,14 +299,14 @@
                 },
                 {
                     "metadata": {
-                        "id": 112,
-                        "identifier": "9530cd77-2579-4af0-b605-13fa3709e349",
-                        "title": "Events Table",
+                        "id": 20,
+                        "identifier": "2ea783e2-f3ec-46b7-91e9-6db20819608d",
+                        "title": "Key Value",
                         "width": 2,
-                        "order": 2,
-                        "description": "This widget displays all Alert events and their properties.",
-                        "type": 1,
-                        "templateIdentifier": "463edd8d-5031-4a26-895f-9d8f09af6043",
+                        "order": 3,
+                        "description": "",
+                        "type": 0,
+                        "templateIdentifier": "6eb735de-a8ba-442d-8c3f-56bc6bb3c402",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -422,21 +319,21 @@
                         "isSupported": null
                     },
                     "config": {
-                        "eventSelectedFields": [],
-                        "type": 1,
+                        "keyValue": [],
+                        "type": 0,
                         "widgetDefinitionScope": 2
                     }
                 },
                 {
                     "metadata": {
-                        "id": 113,
-                        "identifier": "1218386d-6a21-4911-a26c-8b6369c9709f",
+                        "id": 21,
+                        "identifier": "8f11bd11-b12c-41a1-9573-583840dda09c",
                         "title": "Custom Fields Form",
                         "width": 2,
                         "order": 4,
                         "description": "",
                         "type": 20,
-                        "templateIdentifier": "463edd8d-5031-4a26-895f-9d8f09af6043",
+                        "templateIdentifier": "6eb735de-a8ba-442d-8c3f-56bc6bb3c402",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -451,86 +348,6 @@
                     "config": {
                         "customFields": [],
                         "type": 20,
-                        "widgetDefinitionScope": 2
-                    }
-                },
-                {
-                    "metadata": {
-                        "id": 114,
-                        "identifier": "bf7680ef-106f-42b1-9719-803214a437ee",
-                        "title": "Composite Detections",
-                        "width": 2,
-                        "order": 5,
-                        "description": "The widget displays detections and alerts generated from chained rules and their UDM events. For a single alert, UDM events are displayed only.",
-                        "type": 22,
-                        "templateIdentifier": "463edd8d-5031-4a26-895f-9d8f09af6043",
-                        "predefinedWidgetTemplateIdentifier": null,
-                        "actionIdentifier": null,
-                        "stepIdentifier": null,
-                        "stepIntegration": null,
-                        "blockStepIdentifier": null,
-                        "blockStepInstanceName": null,
-                        "presentIfEmpty": false,
-                        "conditionsGroup": null,
-                        "integrationName": "",
-                        "isSupported": null
-                    },
-                    "config": {
-                        "type": 22,
-                        "widgetDefinitionScope": 2
-                    }
-                },
-                {
-                    "metadata": {
-                        "id": 115,
-                        "identifier": "1fcb58b5-39c8-498e-87f6-35bbea0f3f1a",
-                        "title": "Custom Fields Form",
-                        "width": 2,
-                        "order": 6,
-                        "description": "",
-                        "type": 20,
-                        "templateIdentifier": "463edd8d-5031-4a26-895f-9d8f09af6043",
-                        "predefinedWidgetTemplateIdentifier": null,
-                        "actionIdentifier": null,
-                        "stepIdentifier": null,
-                        "stepIntegration": null,
-                        "blockStepIdentifier": null,
-                        "blockStepInstanceName": null,
-                        "presentIfEmpty": false,
-                        "conditionsGroup": null,
-                        "integrationName": "",
-                        "isSupported": null
-                    },
-                    "config": {
-                        "customFields": [],
-                        "type": 20,
-                        "widgetDefinitionScope": 2
-                    }
-                },
-                {
-                    "metadata": {
-                        "id": 116,
-                        "identifier": "57ebe4b3-1d0a-46a2-b9bb-442ed718389a",
-                        "title": "Entities Graph",
-                        "width": 2,
-                        "order": 7,
-                        "description": "This widget includes a visual graph and other details of the Case Entities.",
-                        "type": 7,
-                        "templateIdentifier": "463edd8d-5031-4a26-895f-9d8f09af6043",
-                        "predefinedWidgetTemplateIdentifier": null,
-                        "actionIdentifier": null,
-                        "stepIdentifier": null,
-                        "stepIntegration": null,
-                        "blockStepIdentifier": null,
-                        "blockStepInstanceName": null,
-                        "presentIfEmpty": false,
-                        "conditionsGroup": null,
-                        "integrationName": "",
-                        "isSupported": null
-                    },
-                    "config": {
-                        "targetScope": 0,
-                        "type": 7,
                         "widgetDefinitionScope": 2
                     }
                 }
@@ -539,23 +356,88 @@
                 7,
                 6,
                 5,
-                3,
-                2,
-                1,
-                4,
                 8
             ],
             "roleNames": [
-                "test123",
+                "avitest",
                 "CISO",
                 "SocManager",
-                "Tier2",
-                "Tier1",
-                "Administrator",
-                "Tier3",
-                "test789"
+                "avitest2"
             ],
-            "creationTimeUnixTimeInMs": 1776958694472
+            "creationTimeUnixTimeInMs": 1779090505779
+        },
+        {
+            "id": 4,
+            "identifier": "dd56b1fd-5da9-4fb5-b3e7-dc928481898f",
+            "name": "et123",
+            "creator": null,
+            "playbookIdentifier": "06746461-fd82-4eba-83dd-80ba72c4a085",
+            "type": 0,
+            "widgets": [
+                {
+                    "metadata": {
+                        "id": 22,
+                        "identifier": "2c5b5003-77b4-4f63-9f60-60e0bbcdf858",
+                        "title": "Free Text",
+                        "width": 2,
+                        "order": 1,
+                        "description": "",
+                        "type": 8,
+                        "templateIdentifier": "dd56b1fd-5da9-4fb5-b3e7-dc928481898f",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "text": null,
+                        "type": 8,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 23,
+                        "identifier": "1a54b573-92ae-444b-bb70-835c410e8111",
+                        "title": "Free Text",
+                        "width": 2,
+                        "order": 2,
+                        "description": "",
+                        "type": 8,
+                        "templateIdentifier": "dd56b1fd-5da9-4fb5-b3e7-dc928481898f",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": null,
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "text": null,
+                        "type": 8,
+                        "widgetDefinitionScope": 2
+                    }
+                }
+            ],
+            "roles": [
+                7,
+                8
+            ],
+            "roleNames": [
+                "avitest",
+                "avitest2"
+            ],
+            "creationTimeUnixTimeInMs": 1779090505779
         }
     ],
     "creationSource": 1
